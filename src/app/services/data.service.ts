@@ -10,7 +10,7 @@ export class DataService {
 
   url2="https://jsonplaceholder.typicode.com/todos";
 
-  url3="https://cors-anywhere.herokuapp.com/em999-api.herokuapp.com/api/events";
+  url3="https://cors-anywhere.herokuapp.com/https://em999-api.herokuapp.com/api/events";
 
   constructor(private http:HttpClient) { }
 
