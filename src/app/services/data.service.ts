@@ -17,7 +17,7 @@ export class DataService {
   constructor(private http:HttpClient) { }
 
   getdata(){
-    return this.http.get(this.url2);
+    return this.http.get(this.url);
   }
 
 
