@@ -10,10 +10,12 @@ export class DataService {
 
   url2="https://jsonplaceholder.typicode.com/todos";
 
+  url3="https://cors-anywhere.herokuapp.com/em999-api.herokuapp.com/api/events";
+
   constructor(private http:HttpClient) { }
 
   getdata(){
-    return this.http.get(this.url);
+    return this.http.get(this.url3);
   }
 
 
