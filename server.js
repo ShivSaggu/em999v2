@@ -7,10 +7,10 @@ function requireHTTPS(req, res, next) {
     next();
 }
  
-var express = require('express') 
-var cors = require('cors')
-var app = express()
-app.use(cors())
+var express = require('express'); 
+var cors = require('cors');
+var app = express();
+app.use(cors());
 
 
 app.use(requireHTTPS);
