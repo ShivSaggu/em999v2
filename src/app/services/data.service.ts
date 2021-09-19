@@ -12,10 +12,12 @@ export class DataService {
 
   url3="https://cors-anywhere.herokuapp.com/https://em999-api.herokuapp.com/api/events";
 
+  url4="https://em999-cors-anywhere.herokuapp.com/https://em999-api.herokuapp.com/api/events"
+
   constructor(private http:HttpClient) { }
 
   getdata(){
-    return this.http.get(this.url3);
+    return this.http.get(this.url4);
   }
 
 
