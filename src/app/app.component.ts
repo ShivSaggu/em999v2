@@ -8,8 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'em999v2';
 
-  queryResult;
-
+  queryResult:any;
 
   const query = {
     // give the query a unique name
