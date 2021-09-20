@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'em999v2';
 
+  queryResult;
+
+
   const query = {
     // give the query a unique name
     name: 'fetch-user',
@@ -19,6 +22,7 @@ export class AppComponent {
     if (err) {
       console.log(err.stack)
     } else {
+      this.queryResult = res;
       console.log(res.rows[0])
     }
   })
